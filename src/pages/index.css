@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.fl{
+    display: flex;
+    flex-direction: row;
+    justify-items: stretch;
+    align-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-items: center;
+
+}
+Box{
+    background-color: white;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+}
+
+.hero-image{
+    margin: 0;
+    padding: 0;
+}
+.hero-image_container{
+    background-image: url(../images/Jacob.jpg), linear-gradient(to right,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 93vh;
+}
+
+.hero-image_mobile{
+    display: none;
+}
+
+
+
+.hero-image_text{
+    margin-left: 7rem;
+    color: #fff;
+}
+h2{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: .5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-image_text_button{
+    background-color: #20686a;
+    color: #fff !important;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-family: 'Questrial', sans-serif;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 2s;
+    animation-name: fadein;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.hero-image_text_heading{
+    padding-top: 9rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 36px;
+    font-family: 'Questrial', sans-serif;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: .5s;
+    animation-name: fadein;
+    animation-duration: .5s;
+    position: relative;
+}
+
+
+.hero-image_text_p{
+    margin-top: 1rem;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 22rem;
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 1s;
+    position: relative;
+}
+.hero-image_text_span{
+    color: #47C6CB;
+}
+
+@media only screen and (max-width: 917px) {
+    .hero-image_container {
+      background-image: none;
+      background-color: #000;
+    }
+    .hero-image_text_button{
+
+    }
+    .hero-image_mobile{
+        display: block;
+        background-image: url('../images/Jacob.jpg');
+        background-color: #000;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 300px;
+    }
+    .hero-image_text{
+
+        margin-right: auto;
+    }
+    .hero-image_text_heading{
+        padding-top: 0;
+        width: 60vw;
+    }
+    .hero-image_text_p{
+        width: 60vw;
+    }
+    .fl{
+        display: flex;
+        flex-direction: column;
+
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+
+    .hero-image_text{
+        margin:auto;
+    }
+    .hero-image_text_button{
+        margin-left: 6rem;
+        margin-top: 1rem;
+    }
+    .hero-image_text_p{
+        margin-top: 1rem;
+    }
+    .fl{
+        display: flex;
+        flex-direction: column;
+
+    }
+  }
+
+  @keyframes fadein {
+    0% {opacity: 0;}
+    0% {right: 1rem;}
+    50% {opacity: 1;}
+    100% {right: 0rem;}
+
+  }
+
+  .pi{
+    width: 25vw;
+    margin-top: 2.5vw;
+    padding: 2vw;
+
+  }
+  .pc{
+      width: 30vw;
+      background-color: #20686a;
+      text-align: center;
+      color: #fff;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      padding-bottom: 2vw;
+  }
+
+  .fl{
+      display: flex;
+
+
+  }
+  .pc2{
+    width: 30vw;
+    background-color: #47C6CB;
+    text-align: center;
+    color: #000;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}

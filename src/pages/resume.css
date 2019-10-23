@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+.page{
+    width:80vw;
+    background-color: #fff;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.name{
+    font-size: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    top: 1rem;
+}
+
+#logo{
+    height: 3rem;
+    margin-right: 1rem;
+    position: relative;
+    bottom: .5rem;
+    margin-left: 1rem;
+}
+
+.objective{
+    text-align: center;
+    background-color: #20686a;
+    color: #fff;
+    padding: 1rem;
+}
+.O{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.sum{
+    margin: 1rem;
+}
+.pe{
+    font-size: 2rem;
+    background-color: #20686a;
+    color: #fff;
+    padding: 1rem;
+
+
+}
+.bstock{
+    margin: 1rem;
+}
+.jobul{
+    display: block;
+    word-spacing: normal;
+    list-style: disc;
+}
+.apps{
+    margin: 1rem;
+}
+.joba{
+    color: #20686a !important;
+}
+.ed{
+    margin: 1rem;
+}
+.cm{
+    color: #20686a;
+    margin: 2rem;
+    font-size: 2rem;
+}
+.wt{
+    background-color: #fff;
+    margin: 2rem;
+}
+.con{
+    color: white;
+    margin: 3rem;
+}
