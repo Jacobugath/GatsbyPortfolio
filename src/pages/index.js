@@ -50,7 +50,7 @@ const IndexPage = () => (
     </div>
     <a id="portfolio"></a>
 
-      <div className="container-fluid" style={{paddingTop: '5%'}}>
+      <div className="container-fluid" style={{paddingTop: '3%', paddingBottom: '1%'}}>
 
         <div className="row">
           <div className="col-lg-3">
