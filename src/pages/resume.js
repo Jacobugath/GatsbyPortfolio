@@ -22,9 +22,9 @@ const Resume = () => (
     <div className="page">
         <div className="flex">
             <div className="name">Jacob Morris</div>
-            <div className="flex"><div className="address">3103 E Lookout Cir
+            <div className="flex"><div className="address">1140 W Atherton Ct #13
             <br/>
-            Eagle Mountain, UT 84005
+            Taylorsville, UT 84123
             </div>
             <img src={logo} alt="logo" id='logo'/>
             </div>

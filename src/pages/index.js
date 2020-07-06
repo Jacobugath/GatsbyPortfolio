@@ -5,6 +5,7 @@ import rpg from '../images/rpg.jpg'
 import Button from '@material-ui/core/Button';
 
 import Layout from "../components/layout"
+import Header from '../components/header.js'
 import SEO from "../components/seo"
 import './index.css'
 import Card from '../components/card'
@@ -27,7 +28,7 @@ import Bec from '../images/Becca.png'
 import Beard from '../images/Bearded.png'
 import Cof from '../images/Coffee.png'
 import Tat from '../images/Tatu.png'
-
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 
@@ -47,9 +48,10 @@ const IndexPage = () => (
 
       <Link to="/contact"><button className="hero-image hero-image_text hero-image_text_button">Contact Me</button></Link>
     </div>
-    <a name="portfolio"></a>
+    <a id="portfolio"></a>
 
-      <div className="container-fluid">
+      <div className="container-fluid" style={{paddingTop: '5%'}}>
+
         <div className="row">
           <div className="col-lg-3">
             <a href="https://glimmeroflightstudios.com/" target='blank'><img src={glim} alt="" width='100%'/></a>
@@ -78,6 +80,9 @@ const IndexPage = () => (
             <a href="https://tatuappv2.herokuapp.com/" target='blank'><img src={Tat} alt="" width='100%'/></a>
             <h2 style={{color:'white'}}>Tatu</h2>
           </div>
+        </div>
+        <div className="butcontainer">
+        <Link to="/contact" className='butcontainer'><button className="hero-image hero-image_text hero-image_text_button_bottom">Contact Me</button></Link>
         </div>
 
 
