@@ -1,14 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import './header.css'
-import TransitionLink from "gatsby-plugin-transition-link"
-import InternalProvider from 'gatsby-plugin-transition-link/context/InternalProvider';
-
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import menu from '../images/imageedit_5_5364596108.png'
-import { Component } from "materialize-css"
+
 
 class Header extends React.Component {
   constructor(props) {
@@ -17,6 +14,16 @@ class Header extends React.Component {
     this.state = {
         active: false,
     };
+}
+componentDidMount() {
+  try {
+    this.AniLink = require("gatsby-plugin-transition-link/AniLink");
+    this.TransitionLink = require("gatsby-plugin-transition-link");
+    this.InternalProvider = require("gatsby-plugin-transition-link/context/InternalProvider");
+    this.Component = require("materialize-css");
+  } catch (e) {
+    console.error(e);
+  }
 }
 toggleClass() {
   const currentState = this.state.active;
