@@ -1,0 +1,67 @@
+.menu_brand{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+span{
+    padding: 0 !important;
+}
+.head{
+    height: 1.75em;
+}
+li{
+    z-index: 1000;
+}
+.lin:hover{
+    color: #47C6CB;
+
+}
+
+.active{
+border-bottom: 2px solid white;
+}
+
+.men{
+    width: 30px;
+    display: none;
+}
+.menlin{
+    display:none;
+}
+.menlinksoff{
+    display:none
+}
+.menlinks{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 1;
+}
+.menoff{
+    display: none !important;
+    z-index: 2;
+}
+@media (max-width: 1000px) {
+    .lin {
+      display:none;
+
+    }
+    .men {
+      display:block;
+      z-index: 2;
+    }
+    .menlinks{
+        display: block;
+        Position: Absolute;
+        right: 0;
+        z-index: 1;
+        text-align: center;
+        padding-top: 20vh;
+        font-size: 30px;
+        line-height: 2;
+
+    }
+    .menlinksoff{
+        display: none;
+    }
+  }

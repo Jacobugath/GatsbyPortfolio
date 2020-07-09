@@ -32,7 +32,7 @@ body{
 
 .objective{
     text-align: center;
-    background-color: #20686a;
+    background-color: #47C6CB;
     color: #fff;
     padding: 1rem;
 }
@@ -45,7 +45,7 @@ body{
 }
 .pe{
     font-size: 2rem;
-    background-color: #20686a;
+    background-color: #47C6CB;
     color: #fff;
     padding: 1rem;
 
@@ -63,13 +63,13 @@ body{
     margin: 1rem;
 }
 .joba{
-    color: #20686a !important;
+    color: #47C6CB !important;
 }
 .ed{
     margin: 1rem;
 }
 .cm{
-    color: #20686a;
+    color: #47C6CB;
     margin: 2rem;
     font-size: 2rem;
 }

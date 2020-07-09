@@ -6,6 +6,7 @@ header{
   padding: 2px;
   display: flex;
   justify-content: space-between;
+  z-index: 50;
 }
 ul{
   display: flex;
@@ -23,4 +24,7 @@ span{
 .menu_brand{
   margin-top:18px;
   margin-left: 1rem;
+}
+.icon{
+  width: 2vw;
 }

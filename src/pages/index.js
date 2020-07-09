@@ -42,7 +42,7 @@ const IndexPage = () => (
     <div className="hero-image_mobile"></div>
     <div className="hero-image hero-image_container">
       <h1 className="hero-image hero-image_text hero-image_text_heading">Hi, I'm <span className= "hero-image_text_span">Jacob Morris</span>.</h1>
-      <p className="hero-image hero-image_text hero-image_text_p">I'm a freelance webdeveloper in Eagle Mountain, Utah. I specialize in <span className= "hero-image_text_span">JavaScript</span> and <span className= "hero-image_text_span">web design</span>, but have experience ranging from database creation to code migration.</p>
+      <p className="hero-image hero-image_text hero-image_text_p">I'm a freelance webdeveloper in Eagle Mountain, Utah.</p>
       <p className="hero-image hero-image_text hero-image_text_p">You'll find my portfolio down below. I love colaborating with brilliant people, so if you're interested in working together you can find my contact information by clicking the link below.</p>
 
 
