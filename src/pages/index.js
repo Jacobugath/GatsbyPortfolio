@@ -29,61 +29,112 @@ import Beard from '../images/Bearded.png'
 import Cof from '../images/Coffee.png'
 import Tat from '../images/Tatu.png'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import me from '../images/B&W sample.jpg'
+import { useState, useEffect } from 'react';
+import glim1 from '../images/Glimmer 1.png'
+import mon1 from '../images/Monica 1.png'
+import bec1 from '../images/Becca 1.png'
+import beard1 from '../images/Bearded 1.png'
+import cof1 from '../images/Coffee 1.png'
+import tat1 from '../images/Tatu 1.png'
 
 
 
 
 
+function IndexPage(){
+  const [isShown, setIsShown] = useState({isShown: false});
+  const [mon, setMon] = useState({mon: false});
+  const [bec, setBec] = useState({bec: false});
+  const [beard, setBeard] = useState({beard: false});
+  const [cof, setCof] = useState({cof: false});
+  const [tat, setTat] = useState({tat: false});
+  useEffect(() => {
+    setIsShown(false);
+    setMon(false);
+    setBec(false);
+    setBeard(false);
+    setCof(false);
+    setTat(false);
+  }, []);
 
-
-const IndexPage = () => (
+return(
   <Layout>
     <SEO title="Home" />
-    <div className="hero-image_mobile"></div>
-    <div className="hero-image hero-image_container">
+
+    <div className="flexcon">
+      <div className="hero-image hero-image_container">
       <h1 className="hero-image hero-image_text hero-image_text_heading">Hi, I'm <span className= "hero-image_text_span">Jacob Morris</span>.</h1>
       <p className="hero-image hero-image_text hero-image_text_p">I'm a freelance webdeveloper in Eagle Mountain, Utah.</p>
       <p className="hero-image hero-image_text hero-image_text_p">You'll find my portfolio down below. I love colaborating with brilliant people, so if you're interested in working together you can find my contact information by clicking the link below.</p>
 
 
       <Link to="/contact"><button className="hero-image hero-image_text hero-image_text_button">Contact Me</button></Link>
+
+    </div>
+      <div className="img"></div>
     </div>
     <a id="portfolio"></a>
+    <div className="c1">
+        My Recent Work
+    </div>
 
-      <div className="container-fluid" style={{paddingTop: '3%', paddingBottom: '1%'}}>
 
-        <div className="row">
-          <div className="col-lg-3">
-            <a href="https://glimmeroflightstudios.com/" target='blank'><img src={glim} alt="" width='100%'/></a>
-            <h2 style={{color:'white'}}>Glimmer of Light Studios</h2>
+      <div className="container-fluid">
+
+
+          <div className="flexer">
+            <a href="https://glimmeroflightstudios.com/" target='blank'><img onMouseEnter={() => setIsShown(true)}
+        onMouseLeave={() => setIsShown(false)} src={isShown? glim: glim1 } alt="" width='400px'/></a>
+            <div className="imgText">
+            <h2  style={{color:'white'}}>Glimmer of Light Studios</h2>
+            Website Creation
+            </div>
           </div>
-          <div className="col-lg-3">
-            <a href="https://monicajohanson.netlify.com/" target='blank'><img src={Mon} alt="" width='100%'/></a>
+          <div className="flexer">
+            <a href="https://monicajohanson.netlify.com/" target='blank'><img onMouseEnter={() => setMon(true)}
+        onMouseLeave={() => setMon(false)} src={mon? Mon: mon1 } alt="" width='400px%'/></a>
+            <div className="imgText">
             <h2 style={{color:'white'}}>Monica Johanson Photography</h2>
+            Website Creation
           </div>
-          <div className="col-lg-3">
-            <a href='https://rebecca-alexander-piano-studio.com/' target='blank'><img src={Bec} alt="" width='100%'/></a>
+          </div>
+          <div className="flexer">
+            <a href='https://rebecca-alexander-piano-studio.com/' target='blank'><img onMouseEnter={() => setBec(true)}
+        onMouseLeave={() => setBec(false)} src={bec? Bec: bec1 }  width='400px'/></a>
+            <div className="imgText">
             <h2 style={{color:'white'}}>Rebecca Alexander Piano Studio</h2>
-          </div>
-          <div className="col-lg-3">
-            <a href="https://beardeddetailer.netlify.com" target='blank'><img src={Beard} alt="" width='100%'/></a>
+            Website Creation
+          </div></div>
+          <div className="flexer">
+            <a href="https://beardeddetailer.netlify.com" target='blank'><img onMouseEnter={() => setBeard(true)}
+        onMouseLeave={() => setBeard(false)} src={beard? Beard: beard1 }  alt="" width='400px'/></a>
+            <div className="imgText">
             <h2 style={{color:'white'}}>The Bearded Detailer</h2>
+            Website Creation
+           </div>
+        </div>
+
+
+        <div className="flexer">
+            <a href="https://groundsforcofee.netlify.com/" target='blank'><img onMouseEnter={() => setCof(true)}
+        onMouseLeave={() => setCof(false)} src={cof? Cof: cof1 } alt="" width='400px'/></a>
+            <div className="imgText">
+            <h2 style={{color:'white'}}>Grounds For Coffee</h2>
+            Website Creation
+          </div> </div>
+          <div className="flexer">
+            <a href="https://tatuappv2.herokuapp.com/" target='blank'><img onMouseEnter={() => setTat(true)}
+        onMouseLeave={() => setTat(false)} src={tat? Tat: tat1 } alt="" width='400px'/></a>
+            <div className="imgText">
+            <h2 style={{color:'white'}}>Tatu</h2>
+            Website Creation
           </div>
         </div>
-        <div className="row">
-        <div className="col-lg-3"></div>
-        <div className="col-lg-3">
-            <a href="https://groundsforcofee.netlify.com/" target='blank'><img src={Cof} alt="" width='100%'/></a>
-            <h2 style={{color:'white'}}>Grounds For Coffee</h2>
-          </div>
-          <div className="col-lg-3">
-            <a href="https://tatuappv2.herokuapp.com/" target='blank'><img src={Tat} alt="" width='100%'/></a>
-            <h2 style={{color:'white'}}>Tatu</h2>
-          </div>
         </div>
         <div className="butcontainer">
         <Link to="/contact" className='butcontainer'><button className="hero-image hero-image_text hero-image_text_button_bottom">Contact Me</button></Link>
-        </div>
+
 
 
       </div>
@@ -92,5 +143,5 @@ const IndexPage = () => (
 
   </Layout>
 )
-
+}
 export default IndexPage

@@ -1,6 +1,16 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat;
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    margin:0;
+    padding: 0;
 }
 .fl{
     display: flex;
@@ -13,9 +23,23 @@ body{
     justify-items: center;
 
 }
+.imgText{
+    background-color: #20686a;
+    width: 400px;
+    text-align: center;
+    font: white;
+    padding: 20px 10px 16px 10px;
+    height: 120px;
+    margin-bottom: 2em;
+
+}
+.flexer{
+    margin: 1em;
+}
 h2{
     padding: 0;
-    margin: 2vh !important;
+    margin: 0 !important;
+
 }
 Box{
     background-color: white;
@@ -32,11 +56,33 @@ a{
     padding: 0;
 }
 .hero-image_container{
-    background-image: url(../images/Jacob.jpg), linear-gradient(to right,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000,#000);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    width: 30vw;
+
+
+}
+.flexcon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
     width: 100vw;
-    height: 93vh;
+    flex-wrap: wrap;
+
+}
+.img{
+    background-image: url(../images/imageedit_19_7192569185.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    min-width: 870px;
+
 }
 
 .hero-image_mobile{
@@ -155,22 +201,47 @@ h2{
     .fl{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap-reverse;
 
     }
   }
 
-  @media only screen and (max-width: 660px) {
+  @media only screen and (max-width: 1300px) {
+
+    .flexcon{
+        justify-content: left;
+    }
+    .hero-image_container{
+        order:2;
+        margin-top: 40px;
+
+    }
+    .hero-image_text_heading{
+        padding: 1em;
+    }
+    .hero-image_text{
+        margin-left: 0;
+
+
+    }
+    .hero-image_text_heading{
+        padding: 1em;
+    }
 
     .hero-image_text{
-        margin:auto;
+        width: 90vw;
+        padding-left: 2em;
     }
     .hero-image_text_button{
-        margin-left: 6rem;
-        margin-top: 1rem;
+        padding: 20px;
+        margin: 1em;
     }
-    .hero-image_text_p{
-        margin-top: 1rem;
+
+    .img{
+        min-width: 100vw;
+        height: 75vw;
     }
+
     .fl{
         display: flex;
         flex-direction: column;
@@ -220,9 +291,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-.container-fluid{
-    height: 100vh;
-}
+
 .butcontainer{
     display: flex;
     justify-content: center;

@@ -32,7 +32,7 @@ body{
 
 .objective{
     text-align: center;
-    background-color: #47C6CB;
+    background-color: #20686a;
     color: #fff;
     padding: 1rem;
 }
@@ -45,7 +45,7 @@ body{
 }
 .pe{
     font-size: 2rem;
-    background-color: #47C6CB;
+    background-color: #20686a;
     color: #fff;
     padding: 1rem;
 
@@ -71,6 +71,11 @@ body{
 .cm{
     color: #47C6CB;
     margin: 2rem;
+    font-size: 2rem;
+}
+.c1{
+    color: #47C6CB;
+    margin: .5rem;
     font-size: 2rem;
 }
 .wt{
