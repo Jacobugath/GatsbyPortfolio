@@ -2,7 +2,7 @@ body{
     background-color: black;
     font-family: 'Questrial', sans-serif;
     height: 100vh;
-    overflow: hidden;
+
 
 }
 
@@ -10,7 +10,7 @@ body{
     width:80vw;
     background-color: #fff;
     margin: auto;
-    overflow: hidden;
+
 }
 
 .flex{

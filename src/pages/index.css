@@ -4,11 +4,7 @@ body{
     background-image: url('../images/background.jpg');
     background-repeat: repeat;
 }
-.tl-edges {
-    max-width: 100%;
-     overflow: hidden;
 
-}
 .paint{
     width: 100vw;
     height: 100vh ;
