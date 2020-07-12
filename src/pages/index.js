@@ -31,12 +31,12 @@ import Tat from '../images/Tatu.png'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import me from '../images/B&W sample.jpg'
 import { useState, useEffect } from 'react';
-import glim1 from '../images/Glimmer 1.png'
+import glim1 from '../images/Glimmer 1 (3).png'
 import mon1 from '../images/Monica 1.png'
-import bec1 from '../images/Becca 1.png'
-import beard1 from '../images/Bearded 1.png'
-import cof1 from '../images/Coffee 1.png'
-import tat1 from '../images/Tatu 1.png'
+import bec1 from '../images/Becca 1 (1).png'
+import beard1 from '../images/Bearded 1 (2).png'
+import cof1 from '../images/Coffee 1 (2).png'
+import tat1 from '../images/Tatu 1 (2).png'
 
 
 
@@ -76,7 +76,7 @@ return(
     </div>
     <a id="portfolio"></a>
     <div className="c1">
-        My Recent Work
+        MY RECENT WORK
     </div>
 
 
@@ -85,31 +85,31 @@ return(
 
           <div className="flexer">
             <a href="https://glimmeroflightstudios.com/" target='blank'><img onMouseEnter={() => setIsShown(true)}
-        onMouseLeave={() => setIsShown(false)} src={isShown? glim: glim1 } alt="" width='400px'/></a>
-            <div className="imgText">
+        onMouseLeave={() => setIsShown(false)} src={isShown? glim: glim1 } alt="" width='350px'/></a>
+            <div className="imgTextG">
             <h2  style={{color:'white'}}>Glimmer of Light Studios</h2>
             Website Creation
             </div>
           </div>
           <div className="flexer">
             <a href="https://monicajohanson.netlify.com/" target='blank'><img onMouseEnter={() => setMon(true)}
-        onMouseLeave={() => setMon(false)} src={mon? Mon: mon1 } alt="" width='400px%'/></a>
-            <div className="imgText">
+        onMouseLeave={() => setMon(false)} src={mon? Mon: mon1 } alt="" width='350px%'/></a>
+            <div className="imgTextO">
             <h2 style={{color:'white'}}>Monica Johanson Photography</h2>
             Website Creation
           </div>
           </div>
           <div className="flexer">
             <a href='https://rebecca-alexander-piano-studio.com/' target='blank'><img onMouseEnter={() => setBec(true)}
-        onMouseLeave={() => setBec(false)} src={bec? Bec: bec1 }  width='400px'/></a>
-            <div className="imgText">
+        onMouseLeave={() => setBec(false)} src={bec? Bec: bec1 }  width='350px'/></a>
+            <div className="imgTextP">
             <h2 style={{color:'white'}}>Rebecca Alexander Piano Studio</h2>
             Website Creation
           </div></div>
           <div className="flexer">
             <a href="https://beardeddetailer.netlify.com" target='blank'><img onMouseEnter={() => setBeard(true)}
-        onMouseLeave={() => setBeard(false)} src={beard? Beard: beard1 }  alt="" width='400px'/></a>
-            <div className="imgText">
+        onMouseLeave={() => setBeard(false)} src={beard? Beard: beard1 }  alt="" width='350px'/></a>
+            <div className="imgTextO">
             <h2 style={{color:'white'}}>The Bearded Detailer</h2>
             Website Creation
            </div>
@@ -118,15 +118,15 @@ return(
 
         <div className="flexer">
             <a href="https://groundsforcofee.netlify.com/" target='blank'><img onMouseEnter={() => setCof(true)}
-        onMouseLeave={() => setCof(false)} src={cof? Cof: cof1 } alt="" width='400px'/></a>
-            <div className="imgText">
+        onMouseLeave={() => setCof(false)} src={cof? Cof: cof1 } alt="" width='350px'/></a>
+            <div className="imgTextP">
             <h2 style={{color:'white'}}>Grounds For Coffee</h2>
             Website Creation
           </div> </div>
           <div className="flexer">
             <a href="https://tatuappv2.herokuapp.com/" target='blank'><img onMouseEnter={() => setTat(true)}
-        onMouseLeave={() => setTat(false)} src={tat? Tat: tat1 } alt="" width='400px'/></a>
-            <div className="imgText">
+        onMouseLeave={() => setTat(false)} src={tat? Tat: tat1 } alt="" width='350px'/></a>
+            <div className="imgTextG">
             <h2 style={{color:'white'}}>Tatu</h2>
             Website Creation
           </div>

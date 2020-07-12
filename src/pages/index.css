@@ -9,8 +9,10 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
-    margin:0;
+    margin:auto;
     padding: 0;
+    width: 80vw;
+
 }
 .fl{
     display: flex;
@@ -23,9 +25,12 @@ body{
     justify-items: center;
 
 }
+.menu_brand{
+
+}
 .imgText{
     background-color: #20686a;
-    width: 400px;
+    width: 300px;
     text-align: center;
     font: white;
     padding: 20px 10px 16px 10px;
@@ -33,8 +38,40 @@ body{
     margin-bottom: 2em;
 
 }
+.imgTextG{
+    background-color: #95B927;
+    width: 350px;
+    text-align: center;
+    font: white;
+    padding: 20px 10px 16px 10px;
+    height: 120px;
+    margin-bottom: 1em;
+    color: white;
+}
+.imgTextO{
+    background-color: #EA9010;
+    width: 350px;
+    text-align: center;
+    font: white;
+    padding: 20px 10px 16px 10px;
+    height: 120px;
+    margin-bottom: 1em;
+    color: white;
+}
+.imgTextP{
+    background-color: #3B1F2B;
+    width: 350px;
+    text-align: center;
+    font: white;
+    padding: 20px 10px 16px 10px;
+    height: 120px;
+    margin-bottom: 1em;
+    color: white;
+
+}
 .flexer{
-    margin: 1em;
+    margin-right: .5em;
+    margin-left: .5em;
 }
 h2{
     padding: 0;
@@ -251,6 +288,13 @@ h2{
 
   @keyframes fadein {
     0% {opacity: 0;}
+    0% {right: 1rem;}
+    50% {opacity: 1;}
+    100% {right: 0rem;}
+
+  }
+  @keyframes paintin {
+    0% {background-color: 20686a;}
     0% {right: 1rem;}
     50% {opacity: 1;}
     100% {right: 0rem;}
