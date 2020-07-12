@@ -4,6 +4,23 @@ body{
     background-image: url('../images/background.jpg');
     background-repeat: repeat;
 }
+.tl-edges {
+    max-width: 100%;
+     overflow: hidden;
+
+}
+.paint{
+    width: 100vw;
+    height: 100vh ;
+    background-color: #20686a;
+    -webkit-animation-name: paintin;
+    -webkit-animation-duration: 1s;
+    animation-name: paintin;
+    animation-duration: 1s;
+    opacity: 0;
+    position: absolute;
+    top:0;
+}
 .container-fluid{
     display: flex;
     flex-wrap: wrap;
@@ -294,10 +311,8 @@ h2{
 
   }
   @keyframes paintin {
-    0% {background-color: 20686a;}
-    0% {right: 1rem;}
-    50% {opacity: 1;}
-    100% {right: 0rem;}
+    0% {opacity: 1; left:0;}
+    100% {opacity: 1; left: 100%;}
 
   }
 

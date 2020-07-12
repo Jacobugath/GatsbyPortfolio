@@ -10,15 +10,13 @@ import './resume.css'
 
 import logo from '../images/favicon.png'
 
-const Box = posed.div({
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 }
-});
+
 
 
 const About = () => (
   <Layout>
     <SEO title="About" />
+
     <div className="cm">
         GETTING TO KNOW ME
     </div>

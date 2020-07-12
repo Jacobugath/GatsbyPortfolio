@@ -61,7 +61,7 @@ function IndexPage(){
 return(
   <Layout>
     <SEO title="Home" />
-
+    <div className="paint"></div>
     <div className="flexcon">
       <div className="hero-image hero-image_container">
       <h1 className="hero-image hero-image_text hero-image_text_heading">Hi, I'm <span className= "hero-image_text_span">Jacob Morris</span>.</h1>

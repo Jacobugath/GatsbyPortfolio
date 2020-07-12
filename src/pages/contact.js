@@ -10,14 +10,13 @@ import './resume.css'
 
 import logo from '../images/favicon.png'
 
-const Box = posed.div({
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 }
-});
+
 
 
 const Contact = () => (
+
   <Layout>
+
     <SEO title="Contact" />
     <div className="cm">
         CONTACT ME
@@ -30,6 +29,7 @@ const Contact = () => (
 
 
     </div>
+
   </Layout>
 )
 
