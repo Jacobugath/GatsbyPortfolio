@@ -18,16 +18,20 @@ const Contact = () => (
   <Layout>
 
     <SEO title="Contact" />
+    <div className="flexy">
+    <div className="flexy1">
     <div className="cm">
         CONTACT ME
     </div>
     <div className="wt">// LET'S WORK TOGETHER</div>
+    </div>
     <div className="con">I'd love to answer any questions you may have, or just say "Hi." The best way to contact me is through email:
     <br/>
     <br/>
     <b>jacobthomasmorris@gmail.com</b>
 
 
+    </div>
     </div>
 
   </Layout>

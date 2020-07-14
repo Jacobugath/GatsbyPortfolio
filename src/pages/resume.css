@@ -82,10 +82,34 @@ body{
     font-size: 2rem;
 }
 .wt{
-    background-color: #fff;
+    background-color: #000;
+    border: solid 1px #FF8552;
+    color: #47c6CB;
     margin: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+
 }
 .con{
     color: white;
-    margin: 3rem;
+    width: 66.66vw;
+    padding-right: 5em;
+}
+.flexy{
+    display: flex;
+    flex:1;
+}
+.flexy1{
+    width: 33.3vw;
+}
+@media (max-width: 1000px) {
+    .flexy{
+    flex-direction: column;
+    }
+    .flexy1{
+        width: 100vw;
+    }
+    .con{
+        padding-right: 0;
+    }
 }

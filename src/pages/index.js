@@ -31,12 +31,12 @@ import Tat from '../images/Tatu.png'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import me from '../images/B&W sample.jpg'
 import { useState, useEffect } from 'react';
-import glim1 from '../images/Glimmer 1 (3).png'
-import mon1 from '../images/Monica 1.png'
-import bec1 from '../images/Becca 1 (1).png'
-import beard1 from '../images/Bearded 1 (2).png'
-import cof1 from '../images/Coffee 1 (2).png'
-import tat1 from '../images/Tatu 1 (2).png'
+import glim1 from '../images/imageedit_5_7377122965.png'
+import mon1 from '../images/imageedit_7_6837509621.png'
+import bec1 from '../images/imageedit_17_5000386273.png'
+import beard1 from '../images/imageedit_19_2569907749.png'
+import cof1 from '../images/imageedit_21_8541477127.png'
+import tat1 from '../images/imageedit_23_3086843731.png'
 
 
 
@@ -65,7 +65,7 @@ return(
     <div className="flexcon">
       <div className="hero-image hero-image_container">
       <h1 className="hero-image hero-image_text hero-image_text_heading">Hi, I'm <span className= "hero-image_text_span">Jacob Morris</span>.</h1>
-      <p className="hero-image hero-image_text hero-image_text_p">I'm a freelance webdeveloper in Eagle Mountain, Utah.</p>
+      <p className="hero-image hero-image_text hero-image_text_p">I'm a freelance webdeveloper in Taylorsville, Utah.</p>
       <p className="hero-image hero-image_text hero-image_text_p">You'll find my portfolio down below. I love colaborating with brilliant people, so if you're interested in working together you can find my contact information by clicking the link below.</p>
 
 
@@ -84,33 +84,33 @@ return(
 
 
           <div className="flexer">
-            <a href="https://glimmeroflightstudios.com/" target='blank'><img onMouseEnter={() => setIsShown(true)}
+            <a href="https://glimmeroflightstudios.com/" target='blank'><img className='g' onMouseEnter={() => setIsShown(true)}
         onMouseLeave={() => setIsShown(false)} src={isShown? glim: glim1 } alt="" width='350px'/></a>
             <div className="imgTextG">
-            <h2  style={{color:'white'}}>Glimmer of Light Studios</h2>
+            <h2  className='t'>Glimmer of Light Studios</h2>
             Website Creation
             </div>
           </div>
           <div className="flexer">
-            <a href="https://monicajohanson.netlify.com/" target='blank'><img onMouseEnter={() => setMon(true)}
+            <a href="https://monicajohanson.netlify.com/" target='blank'><img className= 'tb' onMouseEnter={() => setMon(true)}
         onMouseLeave={() => setMon(false)} src={mon? Mon: mon1 } alt="" width='350px%'/></a>
             <div className="imgTextO">
-            <h2 style={{color:'white'}}>Monica Johanson Photography</h2>
+            <h2 className='t'>Monica Johanson Photography</h2>
             Website Creation
           </div>
           </div>
           <div className="flexer">
-            <a href='https://rebecca-alexander-piano-studio.com/' target='blank'><img onMouseEnter={() => setBec(true)}
+            <a href='https://rebecca-alexander-piano-studio.com/' target='blank'><img className='cb' onMouseEnter={() => setBec(true)}
         onMouseLeave={() => setBec(false)} src={bec? Bec: bec1 }  width='350px'/></a>
             <div className="imgTextP">
-            <h2 style={{color:'white'}}>Rebecca Alexander Piano Studio</h2>
+            <h2 className="t">Rebecca Alexander Piano Studio</h2>
             Website Creation
           </div></div>
           <div className="flexer">
             <a href="https://beardeddetailer.netlify.com" target='blank'><img onMouseEnter={() => setBeard(true)}
         onMouseLeave={() => setBeard(false)} src={beard? Beard: beard1 }  alt="" width='350px'/></a>
             <div className="imgTextO">
-            <h2 style={{color:'white'}}>The Bearded Detailer</h2>
+            <h2 className="t">The Bearded Detailer</h2>
             Website Creation
            </div>
         </div>
@@ -120,14 +120,14 @@ return(
             <a href="https://groundsforcofee.netlify.com/" target='blank'><img onMouseEnter={() => setCof(true)}
         onMouseLeave={() => setCof(false)} src={cof? Cof: cof1 } alt="" width='350px'/></a>
             <div className="imgTextP">
-            <h2 style={{color:'white'}}>Grounds For Coffee</h2>
+            <h2 className="t">Grounds For Coffee</h2>
             Website Creation
           </div> </div>
           <div className="flexer">
             <a href="https://tatuappv2.herokuapp.com/" target='blank'><img onMouseEnter={() => setTat(true)}
         onMouseLeave={() => setTat(false)} src={tat? Tat: tat1 } alt="" width='350px'/></a>
             <div className="imgTextG">
-            <h2 style={{color:'white'}}>Tatu</h2>
+            <h2 className="t">Tatu</h2>
             Website Creation
           </div>
         </div>

@@ -37,12 +37,12 @@ return(
     </div>
     <ul className='links'>
 
-        <li><AniLink className='lin' activeClassName="active" paintDrip hex="#20686a" to="/">home</AniLink></li>
+        <li><AniLink className='lin' activeClassName="active" paintDrip hex="#000000" to="/">home</AniLink></li>
         <li><Link className='lin' to='/#portfolio' activeclassName='active'>portfolio</Link></li>
-        <li> <AniLink className='lin' activeClassName="active" paintDrip hex="#20686a" to="/about">
+        <li> <AniLink className='lin' activeClassName="active" paintDrip hex="#000000" to="/about">
   about </AniLink> </li>
-        <li><AniLink className='lin' activeClassName="active" paintDrip hex="#20686a" to="/resume">resume</AniLink></li>
-        <li > <AniLink className='lin' activeClassName="active" paintDrip hex="#20686a" to="/contact">contact</AniLink></li>
+        <li><AniLink className='lin' activeClassName="active" paintDrip hex="#000000" to="/resume">resume</AniLink></li>
+        <li > <AniLink className='lin' activeClassName="active" paintDrip hex="#000000" to="/contact">contact</AniLink></li>
 
     </ul>
     <ul className={this.state.active ? 'menlinks' : 'menlinksoff'}>

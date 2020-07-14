@@ -8,7 +8,7 @@ body{
 .paint{
     width: 100vw;
     height: 100vh ;
-    background-color: #20686a;
+    background-color: black;
     -webkit-animation-name: paintin;
     -webkit-animation-duration: 1s;
     animation-name: paintin;
@@ -24,7 +24,9 @@ body{
     flex: 1;
     margin:auto;
     padding: 0;
-    width: 80vw;
+    width: 85vw;
+    padding: 2em 2em 1em 2em;
+    margin-bottom: 1em;
 
 }
 .fl{
@@ -52,34 +54,57 @@ body{
 
 }
 .imgTextG{
-    background-color: #95B927;
+    background-color: #91CB3E;
     width: 350px;
     text-align: center;
     font: white;
     padding: 20px 10px 16px 10px;
     height: 120px;
     margin-bottom: 1em;
-    color: white;
+
+
+    color: Black;
 }
+
+
+.gb{
+    color: #47c6CB;
+}
+
+
+
+
 .imgTextO{
-    background-color: #EA9010;
+    background-color: #47c6CB;
     width: 350px;
     text-align: center;
     font: white;
+    color: black;
+
     padding: 20px 10px 16px 10px;
     height: 120px;
     margin-bottom: 1em;
-    color: white;
+
+
+}
+.t{
+    color: #123D40;
+}
+flexert{
+    margin-right: .5em;
+    margin-left: .5em;
+    border: 1px solid #47c6CB;
 }
 .imgTextP{
-    background-color: #3B1F2B;
+    background-color: #FF8552;
     width: 350px;
     text-align: center;
     font: white;
     padding: 20px 10px 16px 10px;
     height: 120px;
     margin-bottom: 1em;
-    color: white;
+    color: black;
+
 
 }
 .flexer{
@@ -111,7 +136,7 @@ a{
     background-repeat: repeat;
     padding: 0;
     margin: 0;
-    width: 30vw;
+    width: 38vw;
 
 
 }
@@ -155,9 +180,10 @@ h2{
 }
 
 .hero-image_text_button{
-    background-color: #20686a;
-    color: #fff !important;
-    border: none;
+    background-color: #000;
+    color: #47C6CB;
+    border: 1px solid #FF8552;
+
     padding: 15px 30px;
     margin-top: 1rem;
     font-size: 24px;
@@ -170,13 +196,16 @@ h2{
 
 }
 .hero-image_text_button:hover, .hero-image_text_button_bottom:hover{
-    background-color: #0E2E2F;
+    background-color: #47C6CB;
+    color: black;
+    border: none;
     text-decoration: none;
 }
 .hero-image_text_button_bottom{
-    background-color: #20686a;
-    color: #fff !important;
-    border: none;
+    background-color: black;
+    border: 1px solid #FF8552;
+    color: #47C6CB;
+
     padding: 15px 30px;
     margin-top: 1rem;
     font-size: 24px;
