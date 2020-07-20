@@ -15,6 +15,12 @@ li{
     color: #91CB3E;
 
 }
+a:hover{
+    color: #91CB3E !important;
+}
+.menlins:hover{
+    color: #91CB3E;
+}
 
 .active{
 border-bottom: 2px solid #91CB3E;

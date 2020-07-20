@@ -73,8 +73,9 @@ body{
 }
 .cm{
     color: #47C6CB;
-    margin: 2rem;
+    margin: 2rem 0;
     font-size: 2rem;
+    border-bottom: 1px solid #FF8552;
 }
 .c1{
     color: #47C6CB;
@@ -102,7 +103,46 @@ body{
 .flexy1{
     width: 33.3vw;
 }
-@media (max-width: 1000px) {
+.me{
+    width: 60vw;
+    height: 70vw;
+    position: relative;
+    right: 8rem;
+    bottom: 2rem;
+    z-index: -1;
+
+
+
+}
+#about{
+    height: 95vh;
+    overflow: hidden;
+}
+main{
+    height: 95vh;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+main::-webkit-scrollbar {
+    display: none;
+  }
+  .paint::-webkit-scrollbar {
+    display: none;
+  }
+
+html::-webkit-scrollbar {
+    display: none;
+  }
+ html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .paint {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+@media (max-width: 1420px) {
     .flexy{
     flex-direction: column;
     }
@@ -111,5 +151,27 @@ body{
     }
     .con{
         padding-right: 0;
+        width: 90vw;
     }
+    #about{
+        height: inherit;
+    }
+    .me{
+        right:0;
+        width: inherit;
+        height: inherit;
+        bottom: inherit;
+    }
+    #me{
+        height: 40vw;
+        overflow: hidden;
+        margin: auto;
+        text-align: center;
+        margin-top: 10vw;
+
+    }
+    #about{
+        overflow: initial;
+    }
+
 }

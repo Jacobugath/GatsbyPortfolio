@@ -51,7 +51,8 @@ return(
         <li><Link onClick={this.toggleClass} className='mlin' to='/#portfolio' activeclassName='active'>portfolio</Link></li>
         <li> <Link onClick={this.toggleClass} className='mlin' to='/about' activeClassName="active">about</Link></li>
         <li><Link onClick={this.toggleClass} className='mlin' to='/resume' activeClassName="active">resume</Link></li>
-        <li> <Link onClick={this.toggleClass} activeClassName="active" className='lin' to ='/contact' >contact</Link></li>
+        <li><Link onClick={this.toggleClass} className='mlin' to='/contact' activeClassName="active">contact</Link></li>
+
 
     </ul>
     <img onClick={this.toggleClass} className={this.state.active ? 'menoff' : 'men'} src={menu} alt="menu"/>

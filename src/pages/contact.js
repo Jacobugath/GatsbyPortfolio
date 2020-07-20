@@ -18,6 +18,8 @@ const Contact = () => (
   <Layout>
 
     <SEO title="Contact" />
+    <div id="contact">
+    <div className="paint2"></div>
     <div className="flexy">
     <div className="flexy1">
     <div className="cm">
@@ -33,7 +35,7 @@ const Contact = () => (
 
     </div>
     </div>
-
+</div>
   </Layout>
 )
 

@@ -3,11 +3,12 @@ body{
     padding: 0;
     background-image: url('../images/background.jpg');
     background-repeat: repeat;
+    overflow: hidden;
 }
 
 .paint{
     width: 100vw;
-    height: 100vh ;
+    height: 200vh ;
     background-color: black;
     -webkit-animation-name: paintin;
     -webkit-animation-duration: 1s;
@@ -16,6 +17,22 @@ body{
     opacity: 0;
     position: absolute;
     top:0;
+}
+#contact{
+    overflow: hidden;
+}
+.paint2{
+    width: 100vw;
+    height: 99.1vh ;
+    background-color: black;
+    -webkit-animation-name: paintin;
+    -webkit-animation-duration: 1s;
+    animation-name: paintin;
+    animation-duration: 1s;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    overflow: hidden;
 }
 .container-fluid{
     display: flex;
