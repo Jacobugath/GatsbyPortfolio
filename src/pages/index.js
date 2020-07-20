@@ -24,7 +24,7 @@ import Glimmer from '../components/glimmer'
 import Monica from '../components/monica'
 import glim from '../images/Glimmer.png'
 import Mon from '../images/Monica.png'
-import Bec from '../images/Becca.png'
+import Bec from '../images/trivia.jpg'
 import Beard from '../images/Bearded.png'
 import Cof from '../images/Coffee.png'
 import Tat from '../images/Tatu.png'
@@ -33,7 +33,7 @@ import me from '../images/B&W sample.jpg'
 import { useState, useEffect } from 'react';
 import glim1 from '../images/imageedit_5_7377122965.png'
 import mon1 from '../images/imageedit_7_6837509621.png'
-import bec1 from '../images/imageedit_17_5000386273.png'
+import bec1 from '../images/imageedit_1_5504255064.png'
 import beard1 from '../images/imageedit_19_2569907749.png'
 import cof1 from '../images/imageedit_21_8541477127.png'
 import tat1 from '../images/imageedit_23_3086843731.png'
@@ -100,11 +100,11 @@ return(
           </div>
           </div>
           <div className="flexer">
-            <a href='https://rebecca-alexander-piano-studio.com/' target='blank'><img className='cb' onMouseEnter={() => setBec(true)}
+            <a href='https://jacobugath.github.io/TriviaGame/' target='blank'><img className='cb' onMouseEnter={() => setBec(true)}
         onMouseLeave={() => setBec(false)} src={bec? Bec: bec1 }  width='350px'/></a>
             <div className="imgTextP">
-            <h2 className="t">Rebecca Alexander Piano Studio</h2>
-            Website Creation
+            <h2 className="t">TRIVIA CHALLENGE</h2>
+            Application Creation
           </div></div>
           <div className="flexer">
             <a href="https://beardeddetailer.netlify.com" target='blank'><img onMouseEnter={() => setBeard(true)}
@@ -128,7 +128,7 @@ return(
         onMouseLeave={() => setTat(false)} src={tat? Tat: tat1 } alt="" width='350px'/></a>
             <div className="imgTextG">
             <h2 className="t">Tatu</h2>
-            Website Creation
+            Application Creation
           </div>
         </div>
         </div>
