@@ -8,6 +8,7 @@ body{
 #contact{
     height: 95vh;
     overflow: hidden;
+    background-image: url('../images//background2.png');
 }
 .page{
     width:80vw;
@@ -51,6 +52,7 @@ body{
     font-size: 1.5rem;
     color: #fff;
 }
+
 .sum{
     margin: 1rem;
 }
@@ -101,23 +103,36 @@ body{
 }
 .con{
     color: white;
-    width: 66.66vw;
+    width: 70vw;
     padding-right: 5em;
+
+    background-image: url('../images/background2.png');
+    height: 90vh;
+    padding-top: 5rem;
+    position: relative;
+    bottom: 5rem;
+    z-index: 2;
+
+}
+.menlinks{
+    z-index: 3;
 }
 .flexy{
     display: flex;
     flex:1;
+
 }
 .flexy1{
-    width: 33.3vw;
+    width: 40vw;
 }
 .me{
-    width: 60vw;
-    height: 70vw;
+
+    height: 110vh;
     position: relative;
-    right: 8rem;
-    bottom: 2rem;
-    z-index: -1;
+    right:13rem;
+    bottom: 3rem;
+    z-index: 1;
+
 
 
 
@@ -125,6 +140,9 @@ body{
 #about{
     height: 95vh;
     overflow: hidden;
+    background-color: #030304
+
+
 }
 main{
     height: 95vh;
@@ -162,9 +180,15 @@ html::-webkit-scrollbar {
     .con{
         padding-right: 0;
         width: 90vw;
+        height: inherit;
+        position: inherit;
+
     }
     #about{
         height: inherit;
+
+
+
     }
     .me{
         right:0;
@@ -182,6 +206,10 @@ html::-webkit-scrollbar {
     }
     #about{
         overflow: initial;
+    }
+    #contact{
+        overflow: initial;
+        height: inherit;
     }
 
 }

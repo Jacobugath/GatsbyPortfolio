@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 
 import './resume.css'
 
-import me from '../images/IMG_0003.png'
+import me from '../images/me.png'
 
 
 
@@ -17,7 +17,7 @@ const Contact = () => (
   <Layout>
 
     <SEO title="Contact" />
-    <div id="contact">
+    <div id="about">
     <div className="paint2"></div>
     <div className="flexy">
     <div className="flexy1">

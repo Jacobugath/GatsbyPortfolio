@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 import './resume.css'
 
 import logo from '../images/favicon.png'
-import me from '../images/IMG_0003.png'
+import me from '../images/me.png'
 
 
 
