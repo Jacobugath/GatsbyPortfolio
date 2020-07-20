@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 import './resume.css'
 
 import logo from '../images/favicon.png'
-import me from '../images/me.png'
+
 
 
 
@@ -21,7 +21,7 @@ const About = () => (
     <div className="flexy1">
 
       <div id="me">
-      <img className='me' src={me} alt="Jacob Morris"/>
+        <div className='me'></div>
       </div>
       </div>
 

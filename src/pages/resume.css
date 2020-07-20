@@ -103,14 +103,15 @@ body{
 }
 .con{
     color: white;
-    width: 70vw;
+    width: 50vw;
     padding-right: 5em;
 
     background-image: url('../images/background2.png');
-    height: 90vh;
+    height: 85vh;
     padding-top: 5rem;
     position: relative;
     bottom: 5rem;
+    left: 5%;
     z-index: 2;
 
 }
@@ -120,23 +121,28 @@ body{
 .flexy{
     display: flex;
     flex:1;
+    justify-content: center;
 
 }
 .flexy1{
     width: 40vw;
 }
 .me{
-
+    background-image:url('../images/me.png');
     height: 110vh;
     position: relative;
-    right:13rem;
-    bottom: 3rem;
+    right: 5rem;
+    bottom: 1rem;
     z-index: 1;
-
-
-
-
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    min-width: 1000px;
+    margin-left: 0rem;
 }
+
 #about{
     height: 95vh;
     overflow: hidden;
@@ -197,7 +203,7 @@ html::-webkit-scrollbar {
         bottom: inherit;
     }
     #me{
-        height: 40vw;
+
         overflow: hidden;
         margin: auto;
         text-align: center;
@@ -212,4 +218,12 @@ html::-webkit-scrollbar {
         height: inherit;
     }
 
+}
+
+@media (min-width: 1448px) {
+
+    .con{
+        right: 20vw;
+        left: 0;
+    }
 }

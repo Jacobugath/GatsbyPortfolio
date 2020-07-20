@@ -41,12 +41,13 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
-    margin:auto;
+    margin: auto auto;
     padding: 0;
-    width: 85vw;
+    width: 90vw;
     padding: 2em 2em 1em 2em;
     margin-bottom: 1em;
     z-index: 50;
+    margin-top: 40px;
 
 }
 .fl{
@@ -60,15 +61,13 @@ body{
     justify-items: center;
 
 }
-.menu_brand{
 
-}
 .imgText{
     background-color: #20686a;
     width: 300px;
     text-align: center;
     font: white;
-    padding: 2px 10px 16px 10px;
+    padding: 2px 0px 16px 10px;
     height: 120px;
     margin-bottom: 2em;
 
@@ -159,27 +158,37 @@ a{
     background-repeat: repeat;
     padding: 0;
     margin: 0;
-    width: 30vw;
+    width: calc(100vw - 1050px);
+    max-width: 40rem;
+    min-width: 30rem;
+    justify-self: flex-end;
+    z-index: 2;
+    height: 40vw;
+
+
 
 
 }
 .flexcon{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     padding: 0;
     margin: 0;
     width: 100vw;
-    flex-wrap: wrap;
+
 
 }
 .img{
     background-image: url(../images/imageedit_19_7192569185.jpg);
     background-size: 100% 100%;
+    background-position: left;
     background-repeat: no-repeat;
-    height: 100vh;
-    padding: 0;
+    min-height: 100vh;
+
     margin: 0;
-    min-width: 1000px;
+    min-width: 1050px;
+    position: relative;
+    right: 10vw;
     margin-left: 0rem;
 
 }
@@ -262,7 +271,7 @@ h2{
     margin-bottom: 5px;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
-    width: 22rem;
+
     -webkit-animation-name: fadein;
     -webkit-animation-duration: 1s;
     animation-name: fadein;
@@ -274,9 +283,10 @@ h2{
 }
 
 @media only screen and (max-width: 917px) {
-    .hero-image_container {
-      background-image: none;
-      background-color: #000;
+    .img {
+        min-height: 50vh;
+        background-size: contain;
+        background-position: center;
     }
     .hero-image_text_button{
 
@@ -296,7 +306,7 @@ h2{
     }
     .hero-image_text_heading{
         padding-top: 0;
-        width: 60vw;
+
     }
     .hero-image_text_p{
         width: 60vw;
@@ -307,8 +317,16 @@ h2{
         flex-wrap: wrap-reverse;
 
     }
+    .hero-image_container{
+        width: 100vw;
+        min-width: 100vw;
+        padding: 0;
+       margin: 0;
+       right: 0;
+       left: 0;
+       margin-bottom: 40px
   }
-
+}
   @media only screen and (max-width: 1300px) {
 
     .flexcon{
@@ -316,19 +334,27 @@ h2{
     }
     .hero-image_container{
         order:2;
-        margin-top: 40px;
+
+        width: 100vw;
+        width: 100vw;
+        min-width: 100vw;
+        padding: 0;
+       margin: 0;
+       right: 0;
+       left: 0;
+       margin-top: 40px;
+
 
     }
-    .hero-image_text_heading{
-        padding: 1em;
-    }
+
     .hero-image_text{
         margin-left: 0;
 
 
     }
     .hero-image_text_heading{
-        padding: 1em;
+        padding-top: 1em;
+        padding-left: 1.5rem !important;
     }
 
     .hero-image_text{
@@ -342,13 +368,25 @@ h2{
 
     .img{
         min-width: 100vw;
-        height: 75vw;
+
+        text-align: center;
+        margin:0;
+        padding:0;
+        left:0;
+        right:0;
+        min-height: 50vh;
+        background-size: contain;
+        background-position: center;
     }
 
     .fl{
         display: flex;
         flex-direction: column;
 
+    }
+    .flexcon{
+        flex-wrap: wrap;
+        justify-content: center;
     }
   }
 
@@ -405,3 +443,31 @@ h2{
     justify-content: center;
 }
 a:hover { text-decoration: none; }
+
+@media (min-width: 1448px) {
+    .img{
+        background-image: url('../images/me.png');
+        position: relative;
+        bottom: 2rem;
+        right: 10rem;
+
+
+    }
+    body{
+        background-image: url('../images/background2.png');
+        margin: auto 0;
+    }
+    .hero-image_container{
+        background-image: url('../images/background2.png');
+        z-index:2;
+        height: 60vh;
+
+    }
+    .con{
+        position: relative;
+        right: 8vw;
+    }
+    .container-fluid{
+        width: 70vw;
+    }
+}
