@@ -5,11 +5,15 @@ body{
 
 
 }
-
+#contact{
+    height: 95vh;
+    overflow: hidden;
+}
 .page{
     width:80vw;
     background-color: #fff;
     margin: auto;
+
 
 }
 
@@ -32,12 +36,16 @@ body{
     bottom: .5rem;
     margin-left: 1rem;
 }
-
+.white{
+    background-color: white !important;
+    background-image: none;
+}
 .objective{
     text-align: center;
-    background-color: #20686a;
+    background-color: #1B5D5F;
     color: #fff;
     padding: 1rem;
+
 }
 .O{
     font-size: 1.5rem;
@@ -66,7 +74,7 @@ body{
     margin: 1rem;
 }
 .joba{
-    color: #47C6CB !important;
+    color: #FF8552 !important;
 }
 .ed{
     margin: 1rem;
@@ -141,7 +149,9 @@ html::-webkit-scrollbar {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
-
+.bstock span{
+    color: #FF8552
+}
 @media (max-width: 1420px) {
     .flexy{
     flex-direction: column;

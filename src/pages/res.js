@@ -23,7 +23,7 @@ import git from '../images/imageedit_2_3882449941.png'
 
 const res = () => (
   <Layout >
-  <body className="white">
+  <div className="white">
     <div className="flex1">
       <div className="sidebar">
         <div className="header">
@@ -108,7 +108,7 @@ const res = () => (
 
     </div>
 
-  </body>
+  </div>
 
   </Layout>
 )

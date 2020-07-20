@@ -8,8 +8,7 @@ import SEO from "../components/seo"
 
 import './resume.css'
 
-import logo from '../images/favicon.png'
-
+import me from '../images/IMG_0003.png'
 
 
 
@@ -22,12 +21,17 @@ const Contact = () => (
     <div className="paint2"></div>
     <div className="flexy">
     <div className="flexy1">
+    <div id="me">
+    <img src={me} alt="Jacob Morris" className="me"/>
+    </div>
+    </div>
+    <div className="con">
+
     <div className="cm">
         CONTACT ME
     </div>
-    <div className="wt">// LET'S WORK TOGETHER</div>
-    </div>
-    <div className="con">I'd love to answer any questions you may have, or just say "Hi." The best way to contact me is through email:
+
+    I'd love to answer any questions you may have, or just say "Hi." The best way to contact me is through email:
     <br/>
     <br/>
     <b>jacobthomasmorris@gmail.com</b>

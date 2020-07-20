@@ -32,27 +32,27 @@ const Resume = () => (
 
         <div className="objective">
             <div className='O'>Objective</div><br/>
-            To advance my career with a leading organization that will utilize my foundational web development knowledge<br/>
+            To advance my career with an organization that will utilize my web development knowledge<br/>
             while also allowing me to develop further as a professional
         </div>
 
         <div className="sum">
-            Proven talent for aligning project objectives with established and emerging technology paradigms to achieve maximum website impact with minimum resource expenditures. Growth-focused leader with expertise spanning application develop and launch, full stack web development, customer service, problem solving, strategic planning, team leadership, and client relations management. Exceptional web developer with keen interpersonal, communications, and resource allocation expertise.
+            Proven talent for aligning project objectives to achieve maximum website impact with minimum resource expenditures. Growth-focused professional with expertise spanning application develop and launch, full stack web development, customer service, problem solving, strategic planning, team leadership, and client relations management. Exceptional web developer with keen interpersonal, communications, and resource allocation expertise.
         </div>
 
         <div className="pe">PROFESSIONAL EXPERIENCE</div>
         <div className="bstock">B-STOCK SOLUTIONS, SANDY, UT, Sep 2017 to Present<br></br>
         <span>MEDIATOR</span>
         <ul className='jobul'>
-            <li>Demonstrated exception customer service representative skill wih led to a rapid promotion, answered the phone and guided callers through any problems they were having with submitting their orders</li>
-            <li>Serve as key contributor in collaborating directly with big clients such as Costco and Home Depot.</li>
+            <li>Demonstrated exception customer service representative skill which led to a rapid promotion, answered the phone and guided callers through any problems they were having with submitting their orders.</li>
+            <li>Served as key contributor in collaborating directly with big clients such as Costco and Home Depot.</li>
             <li>Optimized procedures throughout the office by using Keyboard Maestro and Liquid markup to automate repetitive tasks, significantly improving efficiency.</li>
 
         </ul>
     ALLIANCE BENEFIT GROUP ROCKY MOUNTAIN, SANDY, UT, March 2014 to Sep 2017<br></br>
     <span>CUSTOMER SERVICER MANAGER<br/> </span>
         <ul className='jobul'>
-            <li>Achieved department manager status due to establishing success in customer service and dispute processing</li>
+            <li>Achieved department manager status due to establishing success in customer service and distribution processing.</li>
             <li>Developed and implemented efficient processes, progressing the company from experiencing over ten missed calls every day to zero missed calls per day; motivated other employees and changed the order in which the phone rang for different employees.</li>
             <li>Participated in key cross functional meeting to discuss goals and future growth for customer accounts.</li>
             <li>Created and implemented competitive customer service program which resulted in improved employee engagement and customer satisfaction scores.</li>
@@ -68,7 +68,7 @@ const Resume = () => (
             </ul>
             EVENT DASH, 2019
             <ul className="jobul">
-                <li>Developed an app built to aid the user schedule and share events with friends and family.</li>
+                <li>Developed an app built to aid a user in scheduling and sharing events with friends and family.</li>
                 <li>Developed using Firebase and JavaScript</li>
                 <li><a className='joba' href="https:chancy23.github.io/Event-Dash/">Link to project.</a></li>
             </ul>
@@ -94,7 +94,7 @@ const Resume = () => (
         <div className="pe">ADDITIONAL INFORMATION</div>
         <div className="ed">
             <b>Languages:</b> English, Spanish<br/><br/>
-            <b>Portfolio:</b> www.jacobthomasmorris.com<br/><br/>
+            <b>Portfolio:</b> https://jacobmorris.netlify.app/<br/><br/>
             <b>GitHub:</b> https://github.com/Jacobugath <br/><br/>
             <b>LinkedIN:</b> https://linkedin.com/in/jacobthomasmorris/ <br/><br/>
             <b>Interests:</b> Programming, Reading, Writing Fiction, Singing, Chess, and Hiking
